@@ -191,7 +191,6 @@ def analyze_statement_with_variations(file_path, password, amount_threshold=500)
 
 # Main execution
 if __name__ == "__main__":
-    path = "/Users/cb-it-01-1878/Documents/pythons/statement analyser/"
     file_path = input("Enter the path to the bank statement PDF (if axis statement then must include axis keyword in path): ")
     password = input("Enter the password for the statement: ")
     amount_threshold = float(input("Enter the threshold amount to flag transactions (e.g., 500): "))
